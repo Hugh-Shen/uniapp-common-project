@@ -1,0 +1,10 @@
+/* vant 组件样式覆盖 */
+.van-tabs__line {
+	bottom: 0rpx !important;
+	height: 6rpx !important;
+	width: 48rpx !important;
+	background-color: $uni-color-theme !important;
+}
+.van-tab--active {
+	font-weight: 600 !important;
+}

@@ -1,0 +1,20 @@
+{
+	"uni-app": {
+		"scripts": {
+			"production": {
+				"title": "微信小程序-正式版",
+				"env": {
+					"name": "production",
+					"UNI_PLATFORM": "mp-weixin"
+				}
+			},
+			"development": {
+				"title": "微信小程序-测试版",
+				"env": {
+					"name": "development",
+					"UNI_PLATFORM": "mp-weixin"
+				}
+			}
+		}
+	}
+}

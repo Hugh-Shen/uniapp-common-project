@@ -1,0 +1,64 @@
+.nut-price {
+  font-size: 0;
+  display: inline;
+  // color: $uni-color-theme;
+  &.strike{
+	  >view{
+		text-decoration: line-through;
+	  }
+  }
+  &--symbol {
+    display: inline-block;
+    font-size: 20rpx;
+    // margin-right: 4px;
+  }
+  &--large {
+    display: inline-block;
+    font-size: 40rpx;
+  }
+  &--point {
+    display: inline-block;
+    font-size: 40rpx;
+  }
+  // &--small {
+  //   display: inline-block;
+  //   font-size: $font-size-4;
+  // }
+
+  &--decimal-large {
+    display: inline-block;
+    font-size: 24rpx;
+  }
+  &--symbol-large {
+    display: inline-block;
+    font-size: 24rpx;
+  }
+  &--normal {
+    display: inline-block;
+    font-size: 32rpx;
+  }
+  &--decimal-normal {
+    display: inline-block;
+    font-size: 24rpx;
+  }
+  &--symbol-normal {
+    display: inline-block;
+    font-size: 24rpx;
+  }
+  &--small {
+    display: inline-block;
+    font-size: 28rpx;
+  }
+  &--decimal-small {
+    display: inline-block;
+    font-size: 20rpx;
+  }
+  &--symbol-small {
+    display: inline-block;
+    font-size: 20rpx;
+  }
+  // &--decimal--big {
+  //   display: inline-block;
+  //   font-size: $price-medium-size;
+  // }
+}

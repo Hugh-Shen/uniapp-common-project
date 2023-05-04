@@ -1,0 +1,160 @@
+// 字体大小
+@for $f from 10 through 60 {
+  .font-#{$f} {
+    font-size: #{$f}rpx !important;
+  }
+}
+.font-weight {
+  font-weight: bold;
+}
+
+
+// marin
+@for $i from 0 through 100 {
+  .mt-#{$i} {
+    margin-top: #{$i}rpx !important;
+  }
+  .mb-#{$i} {
+    margin-bottom: #{$i}rpx !important;
+  }
+  .ml-#{$i} {
+    margin-left: #{$i}rpx !important;
+  }
+  .mr-#{$i} {
+    margin-right: #{$i}rpx !important;
+  }
+  .mall-#{$i} {
+    margin: #{$i}rpx !important;
+  }
+}
+
+// padding
+@for $i from 0 through 100 {
+  .pt-#{$i} {
+    padding-top: #{$i}rpx !important;
+  }
+  .pb-#{$i} {
+    padding-bottom: #{$i}rpx !important;
+  }
+  .pl-#{$i} {
+    padding-left: #{$i}rpx !important;
+  }
+  .pr-#{$i} {
+    padding-right: #{$i}rpx !important;
+  }
+  .pall-#{$i} {
+    padding: #{$i}rpx !important;
+  }
+}
+.ellipsis {
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+.ellipsis-2 {
+  word-break: break-all;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  overflow: hidden;
+}
+page,
+view,
+scroll-view,
+div,
+navigator {
+  box-sizing: border-box;
+}
+page{
+	background-color: #f2f3f4 !important;
+	font-size: 28rpx;
+	color: #333;
+	// background-color: #FFF !important;
+}
+
+.text-main {
+	color: $uni-color-theme !important;
+}
+.text-primary{
+	color: $uni-color-primary !important;
+}
+.text-grey{
+	color: $uni-text-color-grey;
+}
+.text-sub{
+	color: $uni-text-color-sub;
+}
+.text-err{
+	color: $uni-color-error;
+}
+.text-warning{
+	color: $uni-color-warning;
+}
+.d-f{
+	display: flex;
+	&-b{
+		justify-content: space-between;
+	}
+}
+.flex-1{
+	flex: 1;
+}
+.a-i-c{
+	align-items: center;
+}
+.t-a-c{
+	text-align: center;
+}
+.t-a-r{
+	text-align: right;
+}
+.jc-sb{
+	justify-content: space-between;
+}
+
+// 点击样式
+.fcq-clickable{
+	&:active{
+		position: relative;
+		overflow: hidden;
+		// background-color: #f2f3f5 !important;
+		&::after{
+			content: "";
+			position: absolute;
+			top: 0;
+			right: 0;
+			bottom: 0;
+			left: 0;
+			background-color: rgba(0,0,0,0.1);
+		}
+	}
+}
+
+.arrow{
+	width: 10rpx;
+	height: 10rpx;
+	border-left-color: #999;
+	border-left-style: solid;
+	border-left-width: 2rpx;
+	border-top-color: #999;
+	border-top-style: solid;
+	border-top-width: 2rpx;
+	transform: rotate(135deg);
+}
+
+.clearfix::after {
+    content: "";
+    display: block;
+    visibility: hidden;
+    clear: both;
+}
+
+// 富文本相关样式
+.rich-diy-img{
+	display: block !important;
+	width: 100% !important;
+}
+.rich-diy-p{
+	// padding: 0 12rpx;
+}

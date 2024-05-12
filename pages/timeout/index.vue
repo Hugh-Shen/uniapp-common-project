@@ -21,20 +21,8 @@
 </template>
 
 <script setup>
-	import { TABBAR_PATH } from '@/config/default.js'
-	
 	const customStyle = 'height: 72rpx;padding: 0 56rpx;border-radius: 100rpx;'
-	
-	const onClick = () => {
-		const pages = getCurrentPages()
-		const currentPage = pages[pages.length - 2]
-		
-		if (TABBAR_PATH.includes(currentPage.route)) {
-			uni.reLaunch({ url: currentPage.$page.fullPath })
-		} else {
-			uni.redirectTo({ url: currentPage.$page.fullPath })
-		}
-	}
+
 </script>
 
 <style lang="scss" scoped>

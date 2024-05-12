@@ -3,7 +3,7 @@
 		{
 			"path": "pages/index/index",
 			"style": {
-				"navigationBarTitleText": "方程圈"
+				"navigationBarTitleText": "小步陪诊"
 			}
 		},
 		{
@@ -21,13 +21,6 @@
 			}
 		},
 		{
-			"path": "pages/login/guide",
-			"style": {
-				"navigationStyle": "default",
-				"navigationBarTitleText": ""
-			}
-		},
-		{
 			"path": "pages/timeout/index",
 			"style": {
 				"navigationStyle": "default",
@@ -37,68 +30,7 @@
 		}
 	],
 	"subPackages": [
-		{
-			"root": "pagesSign",
-			"pages": [
-				{
-					"path": "rule/index",
-					"style": {
-						"navigationBarTitleText": "签到规则",
-						"navigationStyle": "default"
-					}
-				},
-				{
-					"path": "remind/index",
-					"style": {
-						"navigationBarTitleText": "签到提醒",
-						"navigationStyle": "default"
-					}
-				}
-			]
-		},
-		{
-			"root": "pagesMine",
-			"pages": [
-				{
-					"path": "info/index",
-					"style": {
-						"navigationBarTitleText": "我的信息",
-						"navigationStyle": "default"
-					}
-				},
-				{
-					"path": "username/index",
-					"style": {
-						"navigationBarTitleText": "修改用户名",
-						"navigationStyle": "default"
-					}
-				},
-				{
-					"path": "aboutUs/index",
-					"style": {
-						"navigationBarTitleText": "关于我们",
-						"navigationStyle": "default"
-					}
-				},
-				{
-					"path": "order/index",
-					"style": {
-						"navigationBarTitleText": "我的订单",
-						"navigationStyle": "custom",
-						"enablePullDownRefresh": true,
-						"onReachBottomDistance": 50
-						// "disableScroll": true
-					}
-				},
-				{
-					"path": "order/detail",
-					"style": {
-						"navigationBarTitleText": "",
-						"navigationStyle": "default"
-					}
-				}
-			]
-		}
+		
 	],
 	"globalStyle": {
 		"navigationStyle": "custom",

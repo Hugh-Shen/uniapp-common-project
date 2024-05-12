@@ -33,8 +33,11 @@
 	}
 	/* ios 底部边距 */
 	.root {
+		width: 100vw;
+		height: 100vh;
 		padding-bottom: calc(0rpx + constant(safe-area-inset-bottom));
 		padding-bottom: env(safe-area-inset-bottom);
+		font-size: 24rpx;
 	}
 	/* vant 公用样式 */
 	@import "/wxcomponents/vant/common/index.wxss";
